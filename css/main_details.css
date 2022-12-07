@@ -1,0 +1,444 @@
+@charset "utf-8";
+
+.main {
+  margin-top: 10px;
+  background-color: #fff;
+  padding-bottom: 50px;
+}
+
+.main .main-header {
+  height: 40px;
+  line-height: 40px;
+}
+
+.main .main-header li {
+  color: #b0b0b0;
+}
+
+.main .main-header li a {
+  margin: 0 10px;
+}
+
+.main .main-header li span {
+  margin-left: 10px;
+  color: #333;
+  cursor: pointer;
+}
+
+.main .main-show {
+  margin-top: 10px;
+}
+
+.main .main-show .show-up .show-left {
+  width: 440px;
+  height: 550px;
+}
+
+.main .main-show .show-up .show-left .show-img {
+  width: 440px;
+  height: 440px;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.main .main-show .show-up .show-left .show-img img {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.main .main-show .show-up .show-left .show-img video {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.main .main-show .show-up .show-left .show-imgs {
+  height: 100px;
+  width: 440px;
+  margin-top: 10px;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.main .main-show .show-up .show-left .show-imgs img {
+  height: 100%;
+  padding: 5px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.main .main-show .show-up .show-left .show-imgs img.select {
+  border-color: #15ab66;
+}
+
+.main .main-show .show-up .show-right {
+  width: 740px;
+  margin-left: 20px;
+}
+
+.main .main-show .show-up .show-right h2 {
+  font-size: 20px;
+  line-height: 2;
+}
+
+.main .main-show .show-up .show-right .right-up p {
+  height: 30px;
+  line-height: 30px;
+}
+
+.main .main-show .show-up .show-right .right-up p:first-child {
+  color: #15ab66;
+}
+
+.main .main-show .show-up .show-right .right-middle {
+  height: 150px;
+  background: #eee;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  margin: 15px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.show-right .right-middle>p {
+  height: 30px;
+  line-height: 30px;
+}
+
+.show-right .right-middle .m-price {
+  font-size: 24px;
+  color: #f40;
+  margin-bottom: 10px;
+}
+
+.show-right .right-middle .m-number {
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+
+.show-right .right-middle .m-number button {
+  width: 30px;
+  height: 30px;
+  outline: none;
+  border: none;
+  background: #15ab66;
+  color: #fff;
+  /* border-radius: 10px; */
+  cursor: pointer;
+}
+
+.show-right .right-middle .m-number div {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+.show-right .right-middle .m-number div input {
+  outline: none;
+  border: none;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  /* border-radius: 10px; */
+}
+
+.show-right .right-middle .m-ticket img {
+  margin-left: 20px;
+  vertical-align: -3px;
+}
+
+.show-right .right-middle .m-statistics span {
+  color: #15ab66;
+  margin-left: 10px;
+  margin-right: 100px;
+}
+
+.main .main-show .show-up .show-right .right-down li {
+  height: 30px;
+  line-height: 30px;
+}
+
+.main .main-show .show-up .show-right .right-down li:first-child {
+  height: 80px;
+}
+
+.show-right .right-down .d-size {
+  width: 500px;
+}
+
+.show-right .right-down .d-size div {
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 2px solid #eee;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.show-right .right-down .d-size div.checked {
+  border: 2px solid #15ab66;
+  background: url(../imgs/details/xuanzhong.png) no-repeat 44px 14px;
+  background-size: 13px;
+}
+
+.show-right .right-down .d-right {
+  display: inline-block;
+  width: 50px;
+  margin-right: 20px;
+}
+
+.show-right .right-down .delivery {
+  display: inline-block;
+
+}
+
+.main .main-show .show-up .show-right .right-button {
+  margin-top: 10px;
+  padding-left: 70px;
+}
+
+.show-right .right-button button {
+  margin-right: 60px;
+  outline: none;
+  border: none;
+  background: #15ab66;
+  color: #fff;
+  width: 110px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.show-right .right-button button:hover {
+  background: #15d47f;
+}
+
+.main .main-show .show-down {
+  margin-top: 10px;
+}
+
+.main .main-show .show-down .down-xg {
+  margin-right: 20px;
+  width: 240px;
+}
+
+.main .main-show .show-down .down-xg h3 {
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.main .main-show .show-down .down-xg .p-nav {
+  width: 232px;
+  height: 330px;
+  margin-bottom: 15px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: #eee;
+}
+
+.main .main-show .show-down .down-xg .p-nav:hover {
+  box-shadow: 5px 5px 5px gray;
+  cursor: pointer;
+}
+
+.main .main-show .show-down .down-xg .p-nav div {
+  width: 200px;
+  height: 25px;
+  line-height: 25px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.main .main-show .show-down .down-xg .p-nav .img-wrapper {
+  margin-top: 0;
+  width: 232px;
+  height: 232px;
+  background-color: rgba(27, 23, 67, 0.03);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.main .main-show .show-down .down-xg .p-nav .img-wrapper img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.main .main-show .show-down .down-xg .p-nav a:hover {
+  text-decoration: underline;
+}
+
+.main .main-show .show-down .down-xg .p-nav .p-price {
+  color: #f40;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+}
+
+.main .main-show .show-down .down-xg .p-nav .p-name {
+  overflow: hidden;
+}
+
+.main .main-show .show-down .down-xg .p-nav .p-shop {
+  overflow: hidden;
+  color: #888;
+}
+
+.main .main-show .show-down .down-details {
+  width: 940px;
+}
+
+.main .main-show .show-down .down-details .details-header {
+  font-size: 18px;
+  padding: 10px 20px;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+}
+
+.main .main-show .show-down .down-details .details-header li {
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.main .main-show .show-down .down-details .details-header li.TabbedPanelsTabSelected {
+  color: #15ab66;
+}
+
+.main .main-show .show-down .down-details .details-header li:hover {
+  color: #15ab66;
+}
+
+.main .main-show .show-down .down-details .p_details {
+  margin-top: 5px;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.main .main-show .show-down .down-details .p_details p {
+  line-height: 2.5;
+}
+
+.main .main-show .show-down .down-details .certificate {
+  margin-top: 5px;
+  padding-left: 20px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.main .main-show .show-down .down-details .certificate p {
+  height: 40px;
+  line-height: 40px;
+}
+
+.main .main-show .show-down .down-details .certificate p.p2 {
+  height: 50px;
+  line-height: 1.5;
+}
+
+.main .main-show .show-down .down-details .certificate p.p3 {
+  font-size: 20px;
+}
+
+.main .main-show .show-down .down-details .certificate p a {
+  color: #ff6700;
+}
+
+.main .main-show .show-down .down-details .certificate p a:hover {
+  color: #15ab66;
+}
+
+.main .main-show .show-down .down-details .certificate img {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.main .main-show .show-down .down-details .measure {
+  margin-top: 5px;
+  padding-left: 20px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.main .main-show .show-down .down-details .measure p.p1 {
+  height: 40px;
+  line-height: 40px;
+}
+
+.main .main-show .show-down .down-details .measure p.p2 {
+  height: 50px;
+  line-height: 1.5;
+}
+
+.main .main-show .show-down .down-details .measure p.p3 {
+  font-size: 20px;
+}
+
+.main .main-show .show-down .down-details .measure img {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.main .main-show .show-down .down-details .evaluate {
+  margin-top: 5px;
+  background: #fff;
+}
+
+.main .main-show .show-down .down-details .e-nav {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.down-details .e-nav img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.down-details .e-nav .e-name {
+  color: #15ab66;
+  font-size: 18px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.down-details .e-nav .e-txt {
+  max-height: 90px;
+  line-height: 30px;
+  overflow: hidden;
+}
+
+.down-details .e-nav .e-imgs {
+  margin-left: 60px;
+}
+
+.down-details .e-nav .e-imgs img {
+  width: 250px;
+  height: 250px;
+  margin-right: 10px;
+  border-radius: 10px;
+}

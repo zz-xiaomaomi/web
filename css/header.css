@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+.topnav {
+  background: #e3e4e5;
+  border-bottom: 1px solid #ddd;
+  height: 30px;
+  color: #999;
+  font-size: 12px;
+}
+
+.topnav-span {
+  margin-left: 10px;
+}
+
+.topnav-menu {
+  line-height: 30px;
+}
+
+.topnav-menu a {
+  padding: 0 10px;
+  border-right: 1px solid #999;
+}
+
+.topnav-menu li:last-child a {
+  border-right: none;
+}
+
+.topnav-menu li:first-child a {
+  padding-left: 0;
+}
+
+.header {
+  background: #fff;
+  height: 170px;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-logo {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  margin-right: 40px;
+}
+
+.header-logo a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  padding: 5px;
+  background: url(../imgs/logo.webp);
+  background-size: 100%;
+}
+
+.header-logo h1 {
+  display: none;
+}
+
+.header-nav {
+  position: relative;
+  width: 1000px;
+  height: 100px;
+  margin-top: 10px;
+}
+
+.header-search {
+  position: absolute;
+  width: 500px;
+  top: 30px;
+  left: 100px;
+}
+
+.header-search input {
+  width: 450px;
+  height: 40px;
+  padding: 0 15px;
+  outline: none;
+  border: 1px solid #15ad66;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.header-searchicon {
+  width: 50px;
+  height: 40px;
+  background: #15ad66;
+  border: 1px solid #15ad66;
+  border-left: none;
+  cursor: pointer;
+  color: #fff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.header-searchicon .iconfont {
+  font-size: 20px;
+}
+
+.header-car {
+  position: absolute;
+  width: 120px;
+  height: 40px;
+  top: 30px;
+  left: 670px;
+  color: #15ab66;
+  border: 1px solid #15ab66;
+  border-radius: 10px;
+}
+
+.header-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 38px;
+}
+
+.header-link .iconfont {
+  margin-right: 5px;
+}
+
+.header-detail {
+  background: #fff;
+  width: 320px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  border: 1px solid #15ab66;
+  border-radius: 10px;
+  display: none;
+  z-index: 50;
+}
+
+.header-car:hover .header-link {
+  background: #15ad66;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.header-car:hover .header-detail {
+  display: block;
+}
+
+.header-img {
+  width: 110px;
+  height: 110px;
+  margin-top: 5px;
+  margin-right: 50px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+}
+
+.header-img .img {
+  background: url(../imgs/qrcode.png);
+  background-size: 100%;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+}
+
+.header-menu {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.header-menu li {
+  height: 50px;
+  line-height: 50px;
+  margin: 0 30px;
+}
+
+.header-menu li.select {
+  color: #15ab66;
+  border-bottom: 3px solid #15ab66;
+  font-weight: bold;
+}
+
+.header-menu li:hover {
+  color: #15ab66;
+  border-bottom: 3px solid #15ab66;
+  font-weight: bold;
+}

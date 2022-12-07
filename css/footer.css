@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.footer {
+  margin-top: 30px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.footer .footer-hidden a {
+  padding: 0 10px;
+  border-right: 1px solid #333;
+}
+
+.footer .footer-hidden a:last-child {
+  border: none;
+}
+
+.footer .footer-Copyright a {
+  padding: 0 5px;
+  border-right: 1px solid #333;
+}
+
+.footer .footer-Copyright a:last-child {
+  margin-right: 5px;
+}

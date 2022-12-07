@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+.main {
+  margin-top: 10px;
+}
+
+.main .article {
+  width: 870px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.main .article .a_nav {
+  height: 200px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.main .article .a_nav:last-child {
+  border: none;
+}
+
+.main .article .a_nav img {
+  width: 250px;
+  height: 170px;
+  margin-right: 10px;
+}
+
+.main .article .a_nav h2 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.main .article .a_nav .a_section {
+  height: 85px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.main .article .a_nav .a_bottom {
+  height: 30px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.main .article .a_nav .a_bottom .b_left span {
+  margin: 0 10px;
+}
+
+.main .article .a_nav .a_bottom .b_right i {
+  margin-left: 5px;
+  margin-right: 2px;
+  vertical-align: -1px;
+}
+
+.main .a_right {
+  width: 310px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.main .a_right h2 {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.main .a_right .img {
+  border-top: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.main .a_right .img img {
+  width: 100px;
+  height: 75px;
+  margin-right: 10px;
+}
+
+.main .a_right .img p {
+  margin-top: 5px;
+  height: 30px;
+  line-height: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.main .a_right .hot>li {
+  border-top: 1px solid #ccc;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

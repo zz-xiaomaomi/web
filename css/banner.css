@@ -1,0 +1,261 @@
+@charset "utf-8";
+
+.banner {
+  margin-top: 10px;
+}
+
+.banner-menu {
+  position: relative;
+  width: 200px;
+  height: 500px;
+  background: #fff;
+  padding-top: 10px;
+  margin-right: 10px;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+}
+
+.banner-menu>li {
+  height: 60px;
+  line-height: 30px;
+  padding-left: 15px;
+  padding-right: 5px;
+}
+
+.banner-menu>li .menu-h {
+  font-size: 16px;
+}
+
+.banner-menu>li .li2 {
+  margin-right: 5px;
+}
+
+.banner-menu>li:last-child img {
+  display: block;
+  padding-top: 10px;
+}
+
+.banner-sub-menu {
+  position: absolute;
+  width: 710px;
+  height: 100%;
+  background: #fff;
+  top: 0;
+  left: 200px;
+  border: 1px solid #eee;
+  padding: 0 30px;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  display: none;
+  z-index: 20;
+}
+
+.banner-sub-menu div {
+  margin-top: 30px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+
+}
+
+.banner-sub-menu ul {
+  height: 140px;
+}
+
+.banner-sub-menu .li3 {
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+}
+
+.banner-menu>li:hover {
+  background: #d9d9d9;
+}
+
+.banner-menu>li:hover .menu-h {
+  color: #15ab66;
+}
+
+.banner-menu>li:hover:last-child {
+  background-color: transparent;
+}
+
+.banner-menu>li:hover .banner-sub-menu {
+  display: block;
+}
+
+.banner-carousel {
+  width: 700px;
+  height: 300px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.banner-carousel img {
+  width: 700px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.banner-carousel2 {
+  background: #fff;
+  width: 700px;
+  height: 190px;
+  margin-top: 10px;
+  border: 1px solid #e3e3e3;
+}
+
+.banner-carousel2 div {
+  width: 174px;
+  height: 190px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.banner-carousel2 img {
+  width: 150px;
+  height: 150px;
+}
+
+.banner-carousel2 p {
+  height: 30px;
+  line-height: 30px;
+}
+
+.banner-right {
+  background: #fff;
+  width: 280px;
+  height: 500px;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+}
+
+.banner-right .user {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  padding: 0 15px;
+  margin-bottom: 10px;
+}
+
+.banner-right .user i {
+  font-size: 52px;
+}
+
+.banner-right .user .sp1 {
+  position: absolute;
+  height: 25px;
+  line-height: 25px;
+  top: 15px;
+  left: 85px;
+}
+
+.banner-right .user .sp2 {
+  position: absolute;
+  height: 25px;
+  line-height: 25px;
+  top: 40px;
+  left: 85px;
+  color: #999;
+}
+
+.banner-right .banner-item {
+  height: 50px;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.banner-right .banner-item button {
+  outline: none;
+  border: none;
+  background: #15ab66;
+  color: #fff;
+  width: 110px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.banner-right .banner-item button:hover {
+  background: #15d47f;
+}
+
+.banner-right .banner-article {
+  height: 168px;
+  padding: 0 10px;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.banner-right .banner-article .h-ul {
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.banner-right .banner-article .h-ul li {
+  margin-right: 10px;
+}
+
+.banner-right .banner-article .h-ul li h3 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.banner-right .banner-article .h-ul li.TabbedPanelsTabSelected h3 {
+  color: #15ad66;
+  cursor: pointer;
+}
+
+.banner-right .banner-article .h-ul li:hover {
+  color: #15ad66;
+  cursor: pointer;
+}
+
+.banner-right .banner-article .article li {
+  height: 30px;
+  line-height: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.banner-right .banner-service .service-header {
+  height: 38px;
+  line-height: 38px;
+  background: #F4F4F4;
+  border-bottom: 1px solid #e3e3e3;
+  padding-left: 10px;
+}
+
+.banner-right .banner-service .service-header span {
+  padding-left: 5px;
+  border-left: 4px solid #f00;
+}
+
+.banner-right .banner-service .service-nav a {
+  padding-top: 5px;
+  width: 92px;
+  height: 71px;
+  text-align: center;
+}
+
+.banner-right .banner-service .service-nav .iconfont {
+  font-size: 26px;
+  display: block;
+}
+
+.banner-right .banner-service .service-nav a:last-child {
+  width: 93.8px;
+}
+
+.banner-right .banner-service .service-nav a.border-top {
+  border-top: 1px solid #e3e3e3;
+}
+
+.banner-right .banner-service .service-nav a.border-right {
+  border-right: 1px solid #e3e3e3;
+}

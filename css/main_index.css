@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+.main {
+  margin-top: 10px;
+}
+
+.h_title {
+  height: 50px;
+  line-height: 50px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.main .main-jx {
+  margin-bottom: 20px;
+}
+
+.main .main-jx a {
+  margin-right: 10px;
+}
+
+.main .main-jx a.c {
+  margin-top: 10px;
+}
+
+.main .main-jx a:last-child {
+  margin-right: 0;
+}
+
+.main .banner2 {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.main .main-show {
+  margin-bottom: 5px;
+}
+
+.main .main-show .show-top {
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+}
+
+.main .main-show .show-top .top_ul {
+  position: absolute;
+  left: 250px;
+}
+
+.main .main-show .show-top .top_ul>li {
+  margin: 0 15px;
+}
+
+.main .main-show .show-img {
+  width: 232px;
+}
+
+.main .main-show .show-product {
+  width: calc(1200px - 232px);
+  height: 100%;
+}
+
+.main .main-show .show-product .p-nav {
+  width: 232px;
+  height: 335px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.main .main-show .show-product .p-nav:hover {
+  box-shadow: 5px 5px 5px gray;
+}
+
+.main .main-show .show-product .p-nav div {
+  width: 170px;
+  height: 25px;
+  line-height: 25px;
+  margin: 0 auto;
+  margin-top: 4px;
+}
+
+.main .main-show .show-product .p-nav .img-wrapper {
+  margin-top: 0;
+  width: 232px;
+  height: 232px;
+  background-color: rgba(27, 23, 67, 0.03);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.main .main-show .show-product .p-nav .img-wrapper img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.main .main-show .show-product .p-nav a:hover {
+  text-decoration: underline;
+}
+
+.main .main-show .show-product .p-nav .p-price {
+  color: #f40;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+}
+
+.main .main-show .show-product .p-nav .p-name {
+  height: 40px;
+  line-height: 20px;
+  overflow: hidden;
+}
+
+.main .main-show .show-product .p-nav .p-shop {
+  overflow: hidden;
+  color: #888;
+}

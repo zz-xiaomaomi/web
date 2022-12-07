@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+.main {
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+.main .main-header {
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+}
+
+.main .main-header li {
+  color: #b0b0b0;
+}
+
+.main .main-header li a {
+  margin: 0 10px;
+}
+
+.main .main-header li span {
+  margin-left: 10px;
+  color: #333;
+  cursor: pointer;
+}
+
+.main .main-sort {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.main .main-sort .sort-nav {
+  margin: 0 5px;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px dashed #ccc;
+  display: flex;
+}
+
+.main .main-sort .sort-nav .name {
+  margin-left: 15px;
+  width: 80px;
+}
+
+.main .main-sort .sort-nav .sort a {
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+.main .main-sort .sort-nav .sort a.select {
+  background: #15ab66;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.main .main-sort .sort-nav .sort a:hover {
+  background: #15ab66;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.main .main-sort .sort-rank {
+  margin: 0 5px;
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+}
+
+.main .main-sort .sort-rank div {
+  padding: 0 15px;
+  border-right: 1px dashed #ccc;
+  cursor: pointer;
+}
+
+.main .main-sort .sort-rank div.select {
+  color: #15ab66;
+}
+
+.main .main-sort .sort-rank div:hover {
+  color: #15ab66;
+}
+
+.main .main-show {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main .main-show .p-nav {
+  width: 230px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #fff;
+  margin-bottom: 10px;
+}
+
+.main .main-show .p-nav:hover {
+  border: 1px solid #15ab66;
+}
+
+.main .main-show .p-nav div {
+  width: 200px;
+  height: 25px;
+  line-height: 25px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.main .main-show .p-nav .img-wrapper {
+  margin-top: 0;
+  width: 228px;
+  height: 228px;
+  background-color: rgba(27, 23, 67, 0.03);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.main .main-show .p-nav .img-wrapper img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.main .main-show .p-nav .p-price {
+  color: #f40;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+}
+
+.main .main-show .p-nav .p-name {
+  overflow: hidden;
+}
+
+.main .main-show .p-nav .p-name a:hover {
+  text-decoration: underline;
+}
+
+.main .main-show .p-nav .p-shop {
+  overflow: hidden;
+  color: #888;
+}
+
+.main .main-show .p-nav .p-shop i {
+  margin-left: 10px;
+  vertical-align: -1px;
+}
+
+.main .main-show .p-nav .p-shop a:hover {
+  color: #888;
+}
+
+.main .main-show .p-nav .p-address {
+  color: #888;
+}
+
+.main .main-show .p-nav .p-address i {
+  vertical-align: -1px;
+}
